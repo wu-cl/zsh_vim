@@ -136,6 +136,3 @@ set encoding=utf-8
 
 "共享剪切板
 set clipboard=unnamed
-
-let mapleader=','
-
