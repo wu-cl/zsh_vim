@@ -3,6 +3,8 @@
 "endif
 "显示行号
 set nu
+"显示相对行号
+set relativenumber
 
 "启动时隐去援助提示
 set shortmess=atI
