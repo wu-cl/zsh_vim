@@ -116,7 +116,7 @@ set nowrap
 let g:Powerline_colorscheme='solarized256'
 
 " Visual模式高亮 当前行高亮
-hi Visual ctermfg=15 ctermbg=208
+hi Visual ctermfg=15 ctermbg=202
 highlight CursorLine ctermbg=237
 
 syntax keyword cppSTLtype initializer_list
