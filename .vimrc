@@ -59,7 +59,7 @@ set foldenable
 set foldmethod=syntax
 set foldlevelstart=99
 set foldcolumn=0
-nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
+"nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 """"""""""""""""""""""""""""""""""""""""""""""
 "不要闪烁
 set novisualbell
