@@ -136,3 +136,6 @@ set encoding=utf-8
 
 "共享剪切板
 set clipboard^=unnamed,unnamedplus
+
+"切换粘贴模式
+set pastetoggle=<space>
