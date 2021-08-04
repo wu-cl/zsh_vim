@@ -97,6 +97,7 @@ Plugin 'auto-pairs'
 Plugin 'majutsushi/tagbar'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'Yggdroot/indentLine'
+Plugin 'fatih/vim-go'
 " 插件列表结束
 call vundle#end()
 filetype plugin indent on
