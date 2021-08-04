@@ -97,7 +97,6 @@ Plugin 'auto-pairs'
 Plugin 'majutsushi/tagbar'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'Yggdroot/indentLine'
-Plugin 'fatih/vim-go'
 " 插件列表结束
 call vundle#end()
 filetype plugin indent on
@@ -110,9 +109,7 @@ let g:autoformat_verbosemode=1
 colorscheme molokai
 map <F9> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
-"inoremap ( ()<Esc>i
-"inoremap [ []<Esc>i
-"inoremap { {}<Esc>i
+
 " 禁止显示菜单和工具条
 set guioptions-=m
 set guioptions-=T
