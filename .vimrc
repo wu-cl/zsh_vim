@@ -67,14 +67,11 @@ set novisualbell
 "启动显示状态行
 set laststatus=2
 
+"当前目录设定为文件所在目录
 set autochdir
-set tags=tags;
 
 "浅色显示当前行
-autocmd InsertLeave * se nocul
-
-"用浅色高亮当前行
-autocmd InsertEnter * se cul
+se cul
 
 "显示输入的命令
 set showcmd
@@ -117,6 +114,10 @@ set nowrap
 
 " 设置状态栏主题风格
 let g:Powerline_colorscheme='solarized256'
+
+" Visual模式高亮 当前行高亮
+hi Visual ctermfg=15 ctermbg=208
+highlight CursorLine ctermbg=237
 
 syntax keyword cppSTLtype initializer_list
 
