@@ -23,7 +23,7 @@ set autowrite
 set confirm
 
 "鼠标可用
-set mouse-=a
+set mouse=a
 
 "tab缩进
 set tabstop=4
@@ -90,25 +90,18 @@ set rtp+=~/.vim/bundle/Vundle.vim
 " vundle 管理的插件列表必须位于 vundle#begin() 和 vundle#end() 之间
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'auto-pairs'
-Plugin 'majutsushi/tagbar'
-Plugin 'Chiel92/vim-autoformat'
 Plugin 'Yggdroot/indentLine'
 " 插件列表结束
 call vundle#end()
 filetype plugin indent on
 
-noremap <F2> :Autoformat<CR>
-let g:autoformat_verbosemode=1
-
 "set background=dark
 "colorscheme solarized
 colorscheme molokai
-map <F9> :TagbarToggle<CR>
-let g:tagbar_autofocus = 1
 
 " 禁止显示菜单和工具条
 set guioptions-=m
