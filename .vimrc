@@ -134,13 +134,3 @@ set clipboard^=unnamed,unnamedplus
 "切换粘贴模式
 set pastetoggle=<space>
 
-
-if exists('$ITERM_PROFILE')
-  if exists('$TMUX')
-    let &t_SI = "<Esc>[3 q"
-    let &t_EI = "<Esc>[0 q"
-  else
-    let &t_SI = "<Esc>]50;CursorShape=1x7"
-    let &t_EI = "<Esc>]50;CursorShape=0x7"
-  endif
-end
