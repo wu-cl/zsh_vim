@@ -67,7 +67,10 @@ tmux_conf_theme_colour_17="#e4e4e4"   # white
 # solarized256 color
 solarized256_22="#005f00"   #darkestgreen
 solarized256_23="#005f5f"
+solarized256_24="#005f87"
 solarized256_148="#afd700"  #brightgreen
+solarized256_235="#262626"
+solarized256_254="#e4e4e4"
 
 # default theme (ansi)
 #tmux_conf_theme_colour_1="colour0"
@@ -172,8 +175,8 @@ tmux_conf_theme_window_status_format="#I #W#{?window_bell_flag, 🔔,}#{?window_
 #     - #{hostname_full_ssh}
 #     - #{username}
 #     - #{username_ssh}
-tmux_conf_theme_window_status_current_fg="$tmux_conf_theme_colour_13"
-tmux_conf_theme_window_status_current_bg="$solarized256_23"
+tmux_conf_theme_window_status_current_fg="$solarized256_254"
+tmux_conf_theme_window_status_current_bg="$solarized256_24"
 tmux_conf_theme_window_status_current_attr="bold"
 tmux_conf_theme_window_status_current_format="#I #W"
 #tmux_conf_theme_window_status_current_format="#{circled_window_index} #W"
