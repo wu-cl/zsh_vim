@@ -240,7 +240,7 @@ tmux_conf_theme_status_right=" #{prefix}#{pairing}#{synchronized}#{?battery_stat
 # status left style
 tmux_conf_theme_status_left_fg="$tmux_conf_theme_colour_6,$solarized256_22,$tmux_conf_theme_colour_8"
 tmux_conf_theme_status_left_bg="$tmux_conf_theme_colour_9,$solarized256_148,$tmux_conf_theme_colour_11"
-tmux_conf_theme_status_left_attr="bold,none,none"
+tmux_conf_theme_status_left_attr="bold,bold,none"
 
 # status right style
 tmux_conf_theme_status_right_fg="$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_14"
