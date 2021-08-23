@@ -177,8 +177,8 @@ tmux_conf_theme_window_status_format="#I #W#{?window_bell_flag, 🔔,}#{?window_
 #     - #{hostname_full_ssh}
 #     - #{username}
 #     - #{username_ssh}
-tmux_conf_theme_window_status_current_fg="$solarized256_23"
-tmux_conf_theme_window_status_current_bg="$solarized256_231"
+tmux_conf_theme_window_status_current_fg="$solarized256_254"
+tmux_conf_theme_window_status_current_bg="$solarized256_24"
 tmux_conf_theme_window_status_current_attr="bold"
 tmux_conf_theme_window_status_current_format="#I #W"
 #tmux_conf_theme_window_status_current_format="#{circled_window_index} #W"
@@ -240,8 +240,8 @@ tmux_conf_theme_status_left=" 📋  #S| #{hostname} "
 tmux_conf_theme_status_right=" #{prefix}#{pairing}#{synchronized}#{?battery_status,#{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %R , %b %d | #{username} "
 
 # status left style
-tmux_conf_theme_status_left_fg="$solarized256_254,$solarized256_22,$tmux_conf_theme_colour_8"
-tmux_conf_theme_status_left_bg="$solarized256_160,$solarized256_148,$tmux_conf_theme_colour_11"
+tmux_conf_theme_status_left_fg="$solarized256_23,$solarized256_22,$tmux_conf_theme_colour_8"
+tmux_conf_theme_status_left_bg="$solarized256_231,$solarized256_148,$tmux_conf_theme_colour_11"
 tmux_conf_theme_status_left_attr="bold,bold,none"
 
 # status right style
