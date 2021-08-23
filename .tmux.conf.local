@@ -69,6 +69,7 @@ solarized256_22="#005f00"   #darkestgreen
 solarized256_23="#005f5f"
 solarized256_24="#005f87"
 solarized256_148="#afd700"  #brightgreen
+solarized256_160="#d70000"
 solarized256_235="#262626"
 solarized256_254="#e4e4e4"
 
@@ -239,7 +240,7 @@ tmux_conf_theme_status_right=" #{prefix}#{pairing}#{synchronized}#{?battery_stat
 
 # status left style
 tmux_conf_theme_status_left_fg="$tmux_conf_theme_colour_6,$solarized256_22,$tmux_conf_theme_colour_8"
-tmux_conf_theme_status_left_bg="$tmux_conf_theme_colour_9,$solarized256_148,$tmux_conf_theme_colour_11"
+tmux_conf_theme_status_left_bg="$solarized256_160,$solarized256_148,$tmux_conf_theme_colour_11"
 tmux_conf_theme_status_left_attr="bold,bold,none"
 
 # status right style
