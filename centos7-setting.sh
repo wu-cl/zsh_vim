@@ -51,3 +51,6 @@ sudo make install
 # close your terminal window (flushes cached tmux executable)
 # open new shell and check tmux version
 tmux -V
+
+wget https://raw.githubusercontent.com/wu-cl/zsh_vim/master/.tmux.conf -O ~/.tmux.conf
+wget https://raw.githubusercontent.com/wu-cl/zsh_vim/master/.tmux.conf.local -O ~/.tmux.conf.local
