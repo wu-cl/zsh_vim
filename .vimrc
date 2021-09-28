@@ -109,8 +109,8 @@ set laststatus=2
 
 set scrolloff=3
 
-" 禁止折行
-set nowrap
+" 折行
+set wrap
 
 " 设置状态栏主题风格
 let g:Powerline_colorscheme='solarized256'
