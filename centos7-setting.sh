@@ -17,8 +17,8 @@ source ~/.zshrc
 # upgrade vim to v8.0
 rpm -Uvh http://mirror.ghettoforge.org/distributions/gf/gf-release-latest.gf.el7.noarch.rpm
 rpm --import http://mirror.ghettoforge.org/distributions/gf/RPM-GPG-KEY-gf.el7
-yum -y remove vim-minimal vim-common vim-enhanced sudo
-yum -y --enablerepo=gf-plus install vim-enhanced sudo
+yum -y remove vim-minimal vim-common vim-enhanced
+yum -y --enablerepo=gf-plus install vim-enhanced
 
 # vim Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
