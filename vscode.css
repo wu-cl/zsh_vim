@@ -1,0 +1,44 @@
+#vscodevim\.vim\.primary[aria-label='-- INSERT --'] {
+    background-color: #ffffff !important;
+    color: #005f5f !important;
+    font-weight: bold;
+}
+
+#vscodevim\.vim\.primary[aria-label='-- NORMAL --'] {
+    background-color: #afd700 !important;
+    color: #005f00 !important;
+    font-weight: bold;
+}
+
+#vscodevim\.vim\.primary[aria-label='-- VISUAL --'] {
+    background-color: #ffaf00 !important;
+    color: #dc322f !important;
+    font-weight: bold;
+}
+
+#vscodevim\.vim\.primary[aria-label='-- VISUAL LINE --'] {
+    background-color: #ffaf00 !important;
+    color: #dc322f !important;
+    font-weight: bold;
+}
+
+#vscodevim\.vim\.primary[aria-label='-- VISUAL BLOCK --'] {
+    background-color: #ffaf00 !important;
+    color: #dc322f !important;
+}
+
+#vscodevim\.vim\.primary[aria-label='-- REPLACE --'] {
+    background-color: #6c71c4 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+#vscodevim\.vim\.primary {
+    color: white !important;
+    font-weight: bold;
+}
+
+#vscodevim\.vim\.showcmd {
+    color: white !important;
+    font-weight: bold;
+}
