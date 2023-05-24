@@ -120,6 +120,80 @@
           ]
       },
       {
+        "description": "Fn-w to Wechat, Fn-c to Chrome, Fn-v to VSCode",
+        "manipulators": [
+            {
+              "type": "basic",
+
+              "from": {
+                "key_code": "w",
+                "modifiers": {
+                  "mandatory": ["fn"],
+                  "optional": [
+                    "caps_lock",
+                    "option",
+                    "command",
+                    "shift",
+                    "control"
+                  ]
+                }
+              },
+
+              "to": [
+                {
+                  "shell_command": "open -b com.tencent.xinWeChat"
+                }
+              ]
+          },
+          {
+              "type": "basic",
+
+              "from": {
+                "key_code": "c",
+                "modifiers": {
+                  "mandatory": ["fn"],
+                  "optional": [
+                    "caps_lock",
+                    "option",
+                    "command",
+                    "shift",
+                    "control"
+                  ]
+                }
+              },
+
+              "to": [
+                {
+                  "shell_command": "open -b com.google.Chrome"
+                }
+              ]
+          },
+          {
+              "type": "basic",
+
+              "from": {
+                "key_code": "v",
+                "modifiers": {
+                  "mandatory": ["fn"],
+                  "optional": [
+                    "caps_lock",
+                    "option",
+                    "command",
+                    "shift",
+                    "control"
+                  ]
+                }
+              },
+
+              "to": [
+                {
+                  "shell_command": "open -b com.microsoft.VSCode"
+                }
+              ]
+          }
+        ]
+      },
+      {
         "description": "Change Fn-E to ESC",
         "manipulators": [
             {
