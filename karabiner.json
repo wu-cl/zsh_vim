@@ -70,6 +70,56 @@
           ]
       },
       {
+          "description": "Change Fn-U to PageUp, Fn-D to PageDown",
+          "manipulators": [
+              {
+                  "type": "basic",
+
+                  "from": {
+                    "key_code": "u",
+                    "modifiers": {
+                      "mandatory": ["fn"],
+                      "optional": [
+                        "caps_lock",
+                        "option",
+                        "command",
+                        "shift",
+                        "control"
+                      ]
+                    }
+                  },
+
+                  "to": [
+                      {
+                        "key_code": "page_up"
+                      }
+                  ]
+              },
+            {
+                  "type": "basic",
+
+                  "from": {
+                    "key_code": "d",
+                    "modifiers": {
+                      "mandatory": ["fn"],
+                      "optional": [
+                        "caps_lock",
+                        "option",
+                        "command",
+                        "shift",
+                        "control"
+                      ]
+                    }
+                  },
+                  "to": [
+                      {
+                        "key_code": "page_down"
+                      }
+                  ]
+            }
+          ]
+      },
+      {
         "description": "Change Fn-E to ESC",
         "manipulators": [
             {
