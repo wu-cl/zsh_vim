@@ -2,70 +2,29 @@
   "title": "Key settings for keyboard.",
   "rules": [
       {
-          "description":"Change CapsLock to Fn && Double Tap CapsLock to ESC",
+          "description":"Change held_down caps_lock to Fn, alone key press to Escape",
           "manipulators":[
               {
                   "type":"basic",
-                  "from":{
-                      "key_code":"caps_lock",
+                  "from": {
+                      "key_code": "caps_lock",
                       "modifiers":{
                           "optional":[
                               "any"
                           ]
                       }
+                          
                   },
-                  "to":[
-                      {
-                          "key_code":"escape"
-                      }
-                  ],
-                  "conditions":[
-                      {
-                          "type":"variable_if",
-                          "name":"caps_lock_pressed",
-                          "value":1
-                      }
-                  ]
-              },
-              {
-                  "type":"basic",
-                  "from":{
-                      "key_code":"caps_lock",
-                      "modifiers":{
-                          "optional":[
-                              "any"
-                          ]
-                      }
-                  },
-                  "to":[
-                      {
-                          "set_variable":{
-                              "name":"caps_lock_pressed",
-                              "value":1
-                          }
-                      },
+                  "to_if_held_down":[
                       {
                           "key_code":"fn"
                       }
                   ],
-                  "to_delayed_action":{
-                      "to_if_invoked":[
-                          {
-                              "set_variable":{
-                                  "name":"caps_lock_pressed",
-                                  "value":0
-                              }
-                          }
-                      ],
-                      "to_if_canceled":[
-                          {
-                              "set_variable":{
-                                  "name":"caps_lock_pressed",
-                                  "value":0
-                              }
-                          }
-                      ]
-                  }
+                  "to_if_alone":[
+                      {
+                          "key_code":"escape"
+                      }
+                  ]
               }
           ]
       },
@@ -79,12 +38,8 @@
                     "key_code": "u",
                     "modifiers": {
                       "mandatory": ["fn"],
-                      "optional": [
-                        "caps_lock",
-                        "option",
-                        "command",
-                        "shift",
-                        "control"
+                      "optional":[
+                          "any"
                       ]
                     }
                   },
@@ -102,12 +57,8 @@
                     "key_code": "d",
                     "modifiers": {
                       "mandatory": ["fn"],
-                      "optional": [
-                        "caps_lock",
-                        "option",
-                        "command",
-                        "shift",
-                        "control"
+                      "optional":[
+                          "any"
                       ]
                     }
                   },
@@ -129,12 +80,8 @@
                 "key_code": "w",
                 "modifiers": {
                   "mandatory": ["fn"],
-                  "optional": [
-                    "caps_lock",
-                    "option",
-                    "command",
-                    "shift",
-                    "control"
+                  "optional":[
+                      "any"
                   ]
                 }
               },
@@ -152,12 +99,8 @@
                 "key_code": "c",
                 "modifiers": {
                   "mandatory": ["fn"],
-                  "optional": [
-                    "caps_lock",
-                    "option",
-                    "command",
-                    "shift",
-                    "control"
+                  "optional":[
+                      "any"
                   ]
                 }
               },
@@ -175,12 +118,8 @@
                 "key_code": "v",
                 "modifiers": {
                   "mandatory": ["fn"],
-                  "optional": [
-                    "caps_lock",
-                    "option",
-                    "command",
-                    "shift",
-                    "control"
+                  "optional":[
+                      "any"
                   ]
                 }
               },
@@ -203,12 +142,8 @@
                 "key_code": "e",
                 "modifiers": {
                   "mandatory": ["fn"],
-                  "optional": [
-                    "caps_lock",
-                    "option",
-                    "command",
-                    "shift",
-                    "control"
+                  "optional":[
+                      "any"
                   ]
                 }
               },
@@ -231,12 +166,8 @@
                 "key_code": "h",
                 "modifiers": {
                   "mandatory": ["fn"],
-                  "optional": [
-                    "caps_lock",
-                    "option",
-                    "command",
-                    "shift",
-                    "control"
+                  "optional":[
+                      "any"
                   ]
                 }
               },
@@ -254,12 +185,8 @@
                 "key_code": "j",
                 "modifiers": {
                   "mandatory": ["fn"],
-                  "optional": [
-                    "caps_lock",
-                    "option",
-                    "command",
-                    "shift",
-                    "control"
+                  "optional":[
+                      "any"
                   ]
                 }
               },
@@ -277,12 +204,8 @@
                 "key_code": "k",
                 "modifiers": {
                   "mandatory": ["fn"],
-                  "optional": [
-                    "caps_lock",
-                    "option",
-                    "command",
-                    "shift",
-                    "control"
+                  "optional":[
+                      "any"
                   ]
                 }
               },
@@ -300,12 +223,8 @@
                 "key_code": "l",
                 "modifiers": {
                   "mandatory": ["fn"],
-                  "optional": [
-                    "caps_lock",
-                    "option",
-                    "command",
-                    "shift",
-                    "control"
+                  "optional":[
+                      "any"
                   ]
                 }
               },
