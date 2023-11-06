@@ -354,6 +354,9 @@ unbind C-b
 set -g prefix `
 bind ` send-prefix
 
+# bind for sync switch
+bind S set synchronize-panes
+
 # move status line to top
 #set -g status-position top
 
