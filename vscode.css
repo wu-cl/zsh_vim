@@ -11,12 +11,11 @@
 }
 
 #vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a {
-    content: "NORMAL"
-    display: none;
+    display: none !important;
 }
 
 #vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a::after {
-    content: "NORMAL"
+    content: "NORMAL";
 }
 
 #vscodevim\.vim\.primary[aria-label='-- VISUAL --'] {
