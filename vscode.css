@@ -10,12 +10,12 @@
     font-weight: bold;
 }
 
-#vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a::before {
+#vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a::after {
     content: "NORMAL";
 }
 
 #vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a {
-    display: none !important;
+    visibility: hidden !important;
 }
 
 #vscodevim\.vim\.primary[aria-label='-- VISUAL --'] {
