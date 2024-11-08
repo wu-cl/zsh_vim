@@ -11,10 +11,11 @@
 }
 
 #vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a {
-    visibility: hidden;
+    font-size: 0;
 }
 
 #vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a::after {
+    font-size: 12px;
     content: "NORMAL";
 }
 
