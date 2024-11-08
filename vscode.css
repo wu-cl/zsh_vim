@@ -10,7 +10,7 @@
     font-weight: bold;
 }
 
-#vscodevim\.vim\.primary[aria-label='-- NORMAL --'].a {
+#vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a {
     content: "NORMAL"
 }
 
