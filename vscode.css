@@ -10,15 +10,6 @@
     font-weight: bold;
 }
 
-#vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a {
-    font-size: 0;
-}
-
-#vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a::after {
-    font-size: 12px;
-    content: "NORMAL";
-}
-
 #vscodevim\.vim\.primary[aria-label='-- VISUAL --'] {
     background-color: #ffaf00 !important;
     color: #dc322f !important;
@@ -50,4 +41,32 @@
 #vscodevim\.vim\.showcmd {
     color: white !important;
     font-weight: bold;
+}
+
+#vscodevim\.vim\.primary a {
+    font-size: 0;
+}
+#vscodevim\.vim\.primary[aria-label='-- INSERT --'] a::after {
+    font-size: 12px;
+    content: "INSERT";
+}
+#vscodevim\.vim\.primary[aria-label='-- NORMAL --'] a::after {
+    font-size: 12px;
+    content: "NORMAL";
+}
+#vscodevim\.vim\.primary[aria-label='-- VISUAL --'] a::after {
+    font-size: 12px;
+    content: "VISUAL";
+}
+#vscodevim\.vim\.primary[aria-label='-- VISUAL LINE --'] a::after {
+    font-size: 12px;
+    content: "VISUAL LINE";
+}
+#vscodevim\.vim\.primary[aria-label='-- VISUAL BLOCK --'] a::after {
+    font-size: 12px;
+    content: "VISUAL BLOCK";
+}
+#vscodevim\.vim\.primary[aria-label='-- REPLACE --'] a::after {
+    font-size: 12px;
+    content: "REPLACE";
 }
