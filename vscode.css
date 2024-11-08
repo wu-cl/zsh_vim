@@ -10,6 +10,10 @@
     font-weight: bold;
 }
 
+#vscodevim\.vim\.primary[aria-label='-- NORMAL --'].a {
+    content: "NORMAL"
+}
+
 #vscodevim\.vim\.primary[aria-label='-- VISUAL --'] {
     background-color: #ffaf00 !important;
     color: #dc322f !important;
